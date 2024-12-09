@@ -22,7 +22,7 @@
         }
     }
     
-    show heading.where(level:1): it => {
+    show heading.where(level:1): it => {    
         let numbering_info = it.numbering
         // Почему-то стили корректно применяются только при использовании переводе заголовка в текст
         it = to_str(it)
